@@ -1,0 +1,15 @@
+body {
+    background: #dfdfdf;
+}
+
+p {
+    color: #222222;
+}
+
+.foto-principal {
+    width: 200PX;
+    border: 2px solid #FFFFFF; /*esse tipo de propriedade chamamos de shorthand*/
+    border-radius: 50%; /*onde eu posso deixar os cantinhos da borda mais redondos, se quiser deixar exatamente redondo é só colocar 50%*/
+    margin: 30px; /*espaçamento externo, obs. se quero aplicar o mesmo tamanho para todos basta eu colocaru uma única vez*/
+    /*padding: 10px; espaçamento interno, obs. se quero aplicar o mesmo tamanho para todos basta eu colocaru uma única vez*/
+}

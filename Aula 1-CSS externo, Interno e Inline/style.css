@@ -1,0 +1,26 @@
+body {
+    background: red;
+}
+
+h3 {
+    color: green;
+}
+
+.foto-principal {
+    width: 500px;
+}
+
+#titulo-principal{
+    color: yellow;
+}
+
+<!--como escreve uma regra de CSS, ela é composta de um seletor, de uma propriedade e de um valor-->
+<!--o seletor: digamos que eu quero deixar o background da minha pág. sem ser branca, a parte branca está toda dentro do meu body--> 
+<!--vou no arquivo externo, escrevo o nome da tag que quero alterar, e vou colocar a propriedade e o valor, nesse ex. a propriedade que quero alterar é o background ecoloco a cor red, então a maneira de escrever CSS é assim, primeiro eu coloco o seletor, chaves, coloco a propriedade e dois pontos, o valor que eu quero e ponto e virgula e fecho o seletor com chave-->
+<!--preciso fazer o link disso com o meu html, vou no meu index.html, vou na tag head que é a tag de config. da nossa pág. então eu vou colocar uma tag nova que é especifica para fazer isso, escrevo a palavra link:css aperto enter e ele auto preenche, essa tag link é usada para importar arquivo css-->
+<!--uma outra forma de add estilo em uma determinada tag é atraves de classes é uma das maneiras mais utilizadas para add estilo, ex. vou no h3 insiro class= e eu invento um nome de uma classe, digamos que quero que algum título meu fique em verde, então coloco o nome verde, salvo, volto no meu arquivo externo. para eu criar uma regra de estilo para essa classe eu coloco ponto o nome da classe, e escrevo a regra-->
+<!-- a propriedade background é para add cor de fundo em alguma coisa, e a propriedade color é para alterar a cor de algum texto.
+Agora se quero que todos os meus titulos fiquem verdes eu vou estilizar a tag no lugar de .verde eu vou colocar a tag "h3" isso significa que todo o h3 do meu documento vão obedecer aquela regra independente da quantidade de "h3" que eu tiver, ou seja se eu criar uma regra de CSS para uma tag especifica, todas as tags do meu documento, correlacionadas aquela tag vão receber aquela propriedade e aquele valor-->
+<!--ex. de classe funcionando, vou na imagem, crio class= foto e depois do meu arquivo externo crio o seletor .foto e vou alterar a largura dela, width de largura, posso ir no meu index.html e remover o widht 200, pois a maneira mais adequada de arrumar era pelo css.-->
+<!-- uma terceira maneira de add estilos, não é muito utilizada é através do atributo id de identificador, posso colocar em qualquer tag de html e dar um nome ex. id="titulo-pricipal" obs isso não escreve com espaço,e na class não se utiliza espaço tbm! o ID é um identificador único, significa que somente a tag que tem id, pode ser chamada de titulo principal, basta ir no aquivo externo inserir # o nome do doc. e inserir uma regra, não é tão comum estilizar isso por id, o id é mais utilizadoem operações como java.script-->
+<!-- CONCLUSÃO APRENDI QUE É POSSIVEL ESTILIZAR ATRAVES DA TAG DIRETAMENTE, E QNDO FAZ ISSO, ESSA REGRA VAI SER APLICADA PARA TODAS AS TAGS, É POSSIVEL ESTILIZAR TBM COM CLASS E PRA ISSO PRECISO UTILIZAR PONTO, E O NOME DA CLASSE QUE EU COLOQUEI NO MEU HTML E TBM ESTILIZAR COM ID, COLOCO O SINAL DE # E O NOME DO ID QUE EU COLOQUEI NO ELEMENTTO DE HTML-->

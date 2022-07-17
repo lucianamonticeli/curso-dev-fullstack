@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8"> <!--charset está definindo a codificação de caracteres dessa pág.-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--isso nem apareceu na tela dele-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- vai explicar depois-->
+        <title>Luciana Pereira de Carvalho Monticeli</title>
+        
+        
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Raleway&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- CSS interno, dentro dessa tag style é ond eu vou escrever minhas regras de CSS, o problema de usar dessa maneira é que não consigo utilizar em outras pág. ex. se tiver outras pág. vou ter que copiar todos os estilos que escrevi e colar nas outras pág. não fa sentido, só faz sentido usar se meu site tiver somente uma pág.-->
+
+        <!-- Inline Eu coloco dentro da tag o que quero alterar, adiciono o atributo chamado style e no "" coloco as propriedades de CSS que eu gostaria de trabalhar-->
+        <!--CSS interno e inline não são adequados-->
+        <!--A forma mais adequada de se fazer é atraves de um arquivo externo, eu crio um arquivo com o nome.css-->
+    </head>
+    <body>
+        <div class="container"> <!--é uma tag para criar divisões, ex. criar uma caixa em volta do meu texto no site, class container vai limitar o nosso site no centro -->
+            <div class="profile">
+                <img src="luciana.jpg" alt="foto: Luciana Monticeli" class="foto-principal"> <!--Para inserir imagem, e arrumar o tamanho é /*img scr="nome do arquivo" */ E alt é caso a imagem não carregue, aparece meu nome e isso é para deficientes visuais tbm, o google e os mecanismos de buscas, dependem destas tags para saber o que é o conteudo desta imagem, é obrigatório colocar-->
+
+                <h1>Luciana Monticeli</h1> <!--Primeiro título é o mais importante daquela pág. é atráves dessa tag que os mecânismos de buscas, vão indexar aquela pág.pra identificar qual o título principal daquela pág.-->
+                <h2>Agente de Atendimento</h2>
+
+                <a href="http://www.linkedin.com" target="_blank" class="social-links">
+                    <img src="logo-linkedin.png" alt="linkedin" class= "social-icons">
+                </a><!--para colocar link, use a tag ancora "a" e href é referencia de hiperlink, se quero que abra uma nova aba ao clicar no link, precicso colocar depois do endereço do site, target que significa alvo "_blank"-->
+                <a href="http://www.instagram.com" target="_blank" class="social-links">
+                    <img src="logo-instagram.png" alt="instagram" class= "social-icons instagram"> <!-- se preciso usar duas regras é com o espaço aqui no meio-->
+                </a>
+                <a href="http://www.facebook.com" target="_blank" class="social-links">
+                    <img src="logo-facebook.png" alt="facebook" class= "social-icons">
+                </a>
+            </div>
+            <p>
+                Olá meu nome é <strong>Luciana Monticeli</strong>, sou casada com o <strong>Francisco Monticeli</strong>, e estou tentando <em>mudar de área</em> e conhecer um pouco mais do <i>mundo</i> da <b>programação.</b><!--semântica do html, isso está relacionado no significado das coisas dentro do meu html, no caso a tag "b" é para fazer um destaque visual em negrito, e a tag "strong" além de fazer isso, ela reforça que aquilo é uma parte muito relevante dentro do meu parágrafo, isso significa que o mecanismo de busca "google" ele vai entender que essa palavra tem uma ordem de relevância maior do que as outras que acompanham aquele parágrafo -->
+            </p>
+                    
+            <h3>Outras coisas que eu gosto</h3> <!--Se eu usar o mesmo h, a fonte fica do mesmo tamanho, qnto mais eu colocar, menor vai ser a fonte-->
+
+            <h3 class="verde"> Minhas Habilidades</h3>
+            <ul> <!--"ul é a tag pai para listas, dentro dessa tag inserimos os itens dessa lista, com a tag"li" essa é a estrutura básica e isso não altera-->
+                <li>Inglês</li>
+                <li>Javascript</li>
+            </ul>
+
+            <h3>Experiências Profissionais</h3>
+            <ul class="jobs-list">
+                <li>
+                    <h4>Sicoob</h4>
+                    <h5>Caixa</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magnam sit. Quam provident reiciendis at fuga, eum dolorem nihil blanditiis dolore distinctio itaque ratione voluptates necessitatibus commodi impedit, quisquam voluptatibus!
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            Developed by Luciana Monticeli
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,20 @@
+body {
+    background: #dfdfdf;
+}
+
+p {
+    color: #222222;
+}
+
+.foto-principal {
+    width: 200PX;
+    border: 2px solid #FFFFFF; /*esse tipo de propriedade chamamos de shorthand*/
+    border-radius: 50%; /*onde eu posso deixar os cantinhos da borda mais redondos, se quiser deixar exatamente redondo é só colocar 50%*/
+    
+    /* Posso escrever dessa forma tbm
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    */
+}
+<!-- /*border: 5px solid black;*/ onde eu escolho quanto eu quero de expessura na minha borda, o tipo de borda que eu quero e a cor que eu quero, posso olhar no site w3c para ver os tipos de bordas que tem-->

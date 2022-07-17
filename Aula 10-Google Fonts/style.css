@@ -1,0 +1,31 @@
+body {
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+}
+
+
+.foto-principal {
+    width: 200PX;
+    border: 2px solid #FFFFFF; /*esse tipo de propriedade chamamos de shorthand*/
+    border-radius: 50%; /*onde eu posso deixar os cantinhos da borda mais redondos, se quiser deixar exatamente redondo é só colocar 50%*/
+    
+    margin: 30px; /*propriedade shorthad da margin*/
+    box-shadow: 0px 0px 10px #959595; /* box shadow é a sombra da caixa, ele recebe 4 parametros, o primeiro é a distância da sombra na horizontal, o segundo a distância da sombra na vertical, o terceiro é o desfalque dessa sombra, e o quarto é a cor*/
+}
+/*Box model a maneira como uma caixa se comporta dentro do CSS,  que a gente consegue ver no davetools a margin, border e o padding*/
+
+h1 {
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(73 73 73);
+    font-weight: 100;
+    letter-spacing: -1px;    
+}

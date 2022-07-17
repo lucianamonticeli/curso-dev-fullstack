@@ -1,0 +1,10 @@
+body {
+    background: #dfdfdf;
+}
+
+p {
+    color: #222222;
+}
+
+
+<!-- As cores no CSS, há duas maneiras de inserir cores no CSS, o RGB onde o r significa red vermelho, o g significa green verde e o b significa blue azul, consigo alterar os valores. O vscode tem uma barrinha tbm de transparência, onde posso inserir, ficaria RGBA onde a significa transparência. temos tbm a forma de hexadecimal, #FFFF00 onde FF é red, o FF seguinte é o green, e o 00 é blue, nessa forma não consigo usar transparência. Posso utilizar um conversor de hexa para rgb, tem conversores online, só pesquisar hex to rgb converter.-->
